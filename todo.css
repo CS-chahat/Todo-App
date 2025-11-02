@@ -1,0 +1,50 @@
+*{
+    font-family:Arial;
+    font-size: 30px;
+    
+    
+}
+#main-heading{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:350px 300px 170px;
+    column-gap:100px;
+    row-gap:30px;
+    margin-left:700px;
+    align-items: center;
+    margin-top:30px;
+}
+#todo-input,#todo-date{
+    font-size:22px;
+    padding:15px 5px;
+    border-radius:5px;
+}
+.btn-delete{
+    font-size:25px;
+    padding:20px 0px;
+    border-radius:20px;
+    background-color: rgb(124, 36, 36);
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.btn-todo{
+    font-size:25px;
+    padding:20px 0px;
+    border-radius:20px;
+    color:white;
+    border:none;
+    cursor:pointer;
+    background-color:rgb(5,119,19);
+}
+body{
+    background-image: url("images/boy.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
